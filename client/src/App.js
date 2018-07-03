@@ -2,6 +2,8 @@ import React, { Component, Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
+import NoMatch from './components/NoMatch';
+import styled from 'styled-components';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import ThankYou from './components/ThankYou';
@@ -15,8 +17,9 @@ import Nhi from './components/Nhi';
 import Sarah from './components/Sarah';
 import Spencer from './components/Spencer';
 import Will from './components/Will';
-import NoMatch from './components/NoMatch';
-import styled from 'styled-components';
+import Member from './components/SingleMember';
+
+
 
 const AppContainer = styled.div`
  background: linear-gradient(to bottom right, #fff0f8, #d7ecff);
@@ -40,6 +43,8 @@ class App extends Component {
           <Route exact path="/dpl/Sarah" component={Sarah} />
           <Route exact path="/dpl/Spencer" component={Spencer} />
           <Route exact path="/dpl/Will" component={Will} />
+          <Route exact path="/dpl/:member" component={Member} />
+
 
           <Route component={NoMatch} />
         </Switch>
