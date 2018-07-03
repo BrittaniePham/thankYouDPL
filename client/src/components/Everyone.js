@@ -29,7 +29,7 @@ const Everyone = () => {
               <Image src={Dave} height='100%' width='100%'/>
               <Divider hidden/>
               <Card.Header>Dave Jungst</Card.Header>
-              <Card.Meta>Teacher</Card.Meta>
+              <Card.Meta>Instructor</Card.Meta>
               <Link to='/dpl/Dave'>
                 <Button fluid>View</Button>
               </Link>
@@ -101,7 +101,7 @@ const Everyone = () => {
               <Image src={Will} height='100%' width='100%'/>
               <Divider hidden/>
               <Card.Header>Will Liang</Card.Header>
-              <Card.Meta>Teacher</Card.Meta>
+              <Card.Meta>Finance</Card.Meta>
               <Link to='/dpl/Will'>
                 <Button fluid>View</Button>
               </Link>
@@ -113,7 +113,7 @@ const Everyone = () => {
               <Image src={Nhi} height='100%' width='100%'/>
               <Divider hidden/>
               <Card.Header>Nhi Doan</Card.Header>
-              <Card.Meta>Teacher</Card.Meta>
+              <Card.Meta>Founder/Marketing</Card.Meta>
               <Link to='/dpl/Nhi'>
                 <Button fluid>View</Button>
               </Link>
@@ -125,7 +125,7 @@ const Everyone = () => {
               <Image src={Dave} height='100%' width='100%'/>
               <Divider hidden/>
               <Card.Header>Marc Price</Card.Header>
-              <Card.Meta>Teacher</Card.Meta>
+              <Card.Meta>Admissions/Community Director</Card.Meta>
               <Link to='/dpl/Marc'>
                 <Button fluid>View</Button>
               </Link>
