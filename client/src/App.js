@@ -15,12 +15,17 @@ import Nhi from './components/Nhi';
 import Sarah from './components/Sarah';
 import Spencer from './components/Spencer';
 import Will from './components/Will';
-import NoMatch from './components/NoMatch'
+import NoMatch from './components/NoMatch';
+import styled from 'styled-components';
+
+const AppContainer = styled.div`
+ background: linear-gradient(to bottom right, #fff0f8, #d7ecff);
+`
 
 class App extends Component {
   render() {
     return (
-      <Fragment>
+      <AppContainer>
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
@@ -38,7 +43,7 @@ class App extends Component {
 
           <Route component={NoMatch} />
         </Switch>
-      </Fragment>
+      </AppContainer>
     );
   }
 }
