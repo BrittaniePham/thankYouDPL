@@ -9,47 +9,56 @@ import Sarah from './images/Sarah.jpeg'
 
 export default [
   {
-    name: 'Dave Jungst',
+    firstName: 'Dave',
+    lastName: 'Jungst',
     image: Dave,
     jobTitle: 'instructor'
   },
   {
-    name: 'Anthony Kelley',
+    firstName: 'Anthony',
+    lastName: 'Kelley',
     image: Anthony,
     jobTitle: 'TA'
   },
   {
-    name: 'Dan Actor',
+    firstName: 'Dan',
+    lastName: 'Actor',
     image: Dan,
     jobTitle: 'TA'
   },
   {
-    name: 'Jacob Wheeler',
+    firstName: 'Jacob',
+    lastName: 'Wheeler',
     image: Jacob,
     jobTitle: 'TA'
   },
   {
-    name: 'Sarah Daenitz',
+    firstName: 'Sarah',
+    lastName: 'Daenitz',
     image: Sarah,
     jobTitle: 'TA'
   },
   {
-    name: 'Spencer Richards',
+    firstName: 'Spencer',
+    lastName: 'Richards',
     image: Spence,
     jobTitle: 'TA'
   },
   {
-    name: 'Will Liang',
+    firstName: 'Will',
+    lastName: 'Liang',
     image: Will,
     jobTitle: 'Finance'
   },
   {
-    name: 'Nhi Doan',
+    firstName: 'Nhi',
+    lastName: 'Doan',
     image: Nhi,
     jobTitle: 'Founder/Marketing'
   },
   {
-    name: 'Marc Price',
+    firstName: 'Marc',
+    lastName: 'Price',
     image: Dave,
     jobTitle: 'Admissions/Community Director'
   }

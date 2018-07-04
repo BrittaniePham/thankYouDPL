@@ -15,13 +15,13 @@ class Everyone extends Component {
       <Container>
         <Card.Group itemsPerRow={3}>
           { devMembers.map ( member => 
-          <Card raised key={member.name}>
+          <Card raised key={member.firstName}>
             <Card.Content>
               <Image src={member.image} height='100%' width='100%'/>
               <Divider hidden/>
-              <Card.Header>{member.name}</Card.Header>
+              <Card.Header>{member.firstName} {member.lastName}</Card.Header>
               <Card.Meta>{member.jobTitle}</Card.Meta>
-              <Link to={`/dpl/${member.name}`}>
+              <Link to={`/dpl/${member.firstName}`}>
                 <Button fluid>View</Button>
               </Link>
             </Card.Content>
