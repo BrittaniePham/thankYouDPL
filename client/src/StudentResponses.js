@@ -1,5 +1,10 @@
 import Brittanie from './images/Brittanie.jpg'
 import Kira from './images/Kira.jpg'
+import Michael from './images/michael.jpg'
+import bianca from './images/bianca.png'
+import alex from './images/alex.png'
+import sabina from './images/sabina.png'
+
 
 export default [
   {
@@ -29,56 +34,52 @@ export default [
     spencer: `Spencer, thank you for being one of the funniest and coolest TA’s ever. You made learning so much fun and were always there to answer my questions and help me understand anything I was getting hung up on. Thank you so much!`
   },
   {
-    name: '',
-    image: '',
-    dave: '',
-    marc: '',
-    nhi: '',
-    will: '',
-    anthony: '',
-    dan: '',
-    jacob: '',
-    sarah: '',
-    spencer: ''
+    name: 'Michael Bach',
+    image: Michael,
+    dave: 'Thank you for being so patient with my slow process of learning as I try to grasp difficult concepts. Your patience sets you apart from other instructors that I have had. Furthermore, you approach your work and relations with humor and wit, which makes coming each day easy, even when I am struggling with concepts. Thank you. ',
+    marc: 'The only one who carries on the legacy of the fist-bump. Classy. ',
+    anthony: 'How is it that you can go home and weep deep sobs of sorrow each night, and return to work daily with a will to go on? I have much to learn from you mastery and skill. One can only hope to become as proficiently skilled at divorcing emotions from daily life, as well as gain an equal bearing of love toward SQL that you have. I have high hopes. Thank you for being such a role model. ',
+    dan: 'I am still waiting for some sweet backstage pass to your next show. Until then, thank you for being patient and sticking with me through my proficient error creation process. I appreciate your willingness to walk me through bugs even though most of the time I should have solved the problem previously. Having the opportunity to struggle alongside someone more knowledgeable than myself is where I learn best. Thank you for providing me this opportunity. ',
+    sarah: 'You answer my questions early in the morning, make coffee so that I can maintain a pulse, without these two things I don’t think that I could have made it this far. Thank you.',
   },
   {
-    name: '',
-    image: '',
-    dave: '',
-    marc: '',
-    nhi: '',
-    will: '',
-    anthony: '',
-    dan: '',
-    jacob: '',
-    sarah: '',
-    spencer: ''
+    name: 'Bianca Hale',
+    image: bianca,
+    dave: 'You never know what kind of instructor you will get, but I am so happy we got you!! Thank you for being an amazing instructor, always being straight up with us, and just overall helping us get through this cohort.',
+    marc: 'Marc, you were my first point of contact before deciding to take this course, thank you for always being so nice to everyone and willing to help us out! ',
+    nhi: 'Thank you both (Nhi and Will) for being so passionate about DevPoint and our success!! I appreciate you both; this has been such a great experience!',
+    will: 'Thank you both (Nhi and Will) for being so passionate about DevPoint and our success!! I appreciate you both; this has been such a great experience!',
+    anthony: 'Thank you for being so helpful to us all! You are always willing to stay after 5:30 PM to help us with any issues that we have, and you are always very patient; thank you!',
+    dan: 'You were my first TA! Thank you for always being there during project time to help us out, you were always so helpful and knowledgeable!',
+    jacob: 'Thank you for being so patient!! No matter how many questions we had, you never made us feel bad about any of them; it was great working with you!',
+    sarah: 'Thank you for giving us great advice during the cohort and helping us out during project time! You were always so patient and kind to us all and I really appreciate that.',
+    spencer: 'Thank you for being so calm/patient and willing to help us out! You are a great TA and it was very nice working with you.'
   },
   {
-    name: '',
-    image: '',
-    dave: '',
-    marc: '',
-    nhi: '',
-    will: '',
-    anthony: '',
-    dan: '',
-    jacob: '',
-    sarah: '',
-    spencer: ''
+    name: 'Alex Winitzky',
+    image: alex,
+    dave: `Is it “Yoongst” or “Junkst?”  No one will ever know.  It’s all part of his mystique.  He’s a figure shrouded in mystery, holds the world record in Vimmy and is the inventor of the infamous devise-redux-axios middleware.  If you can think of a better way to manage headers in a react/redux/devise/token auth/axios environment I sure would like to hear it.  I mean, we've all been in that situation.  He’s the man who taught me everything I know about coding, which is, like var something or other.`,
+    marc: 'You couldn’t put a “price” on friendship, until now.  “Mark” my words, this guy is the real deal.  Case-in-point: he got me a beer once during a hackathon when I was really struggling, it was super nice and it helped me out.  He’s priceLESS.',
+    nhi: 'A man who always has the right set of screwdrivers lying around,. Philips head, star head, hex head.  You name it.  Couldn’t have replaced my HD without him.  Thanks, man.',
+    will: 'Sometimes I wish Will could be my basketball coach, but then I think it would be weird for a grown man to be on a youth team.  Then I think what a huge advantage I would have, they’re so short I would dominate.',
+    anthony: 'THE Anthony Kelley.  A legend in the downtown salt lake city SQL community.  Not really known much outside of that but still a great guy.  Handsome, debonair, cultured, gallant; those are all words people have used to describe me, and I like Anthony, so that should tell you something about him.',
+    dan: 'A beard that’s black as night, a swirling coiffure atop his head.  This guy has got some sweet hair action going on.  Plus the way he scooches his code around is mesmerizing.   A little scooch over here, a small scooch over there.  What he’s really scooched is my heart.',
+    jacob: 'Jakey the Wheelman as no-one calls him.  But they should.  It would be pretty cool.  Especially if he was a getaway driver for bank heists.  I don’t know, it’s something to look into I think.  Plan B if coding doesn’t work out.  He’s just got to get that justify-content flex boxing down and he’ll be golden.',
+    sarah: 'The woman responsible for my coding journey.  I ran into her at an art event and she told me all about this coding bootcamp she was in, and now I have 10,000 dollars less than I did.  That is a 100 percent true story.',
+    spencer: 'One day, after all this is done, Spencer, me and Franklin should get an apartment together and just cook up some noodles, man.  Just cook em up all day long.  We won’t have much, but we’ll have noodles, and each other, and that’s what matters.'
   },
   {
-    name: '',
-    image: '',
-    dave: '',
-    marc: '',
-    nhi: '',
-    will: '',
-    anthony: '',
-    dan: '',
-    jacob: '',
-    sarah: '',
-    spencer: ''
+    name: 'Sabina Shrestha',
+    image: sabina,
+    dave: 'Dave is the most amazing and very supportive person. He is a great Teacher.',
+    marc: 'Marc is very nice and very friendly. He is doing great job at organizing and managing activities at DPL and capturing memories at DPL for all of us.',
+    nhi: 'Nhi is very supportive and positive person. He helps us by providing with very important and useful resources that we need to be ready for career change.',
+    will: 'Will is the kindest person. Looking at his I feel motivated and his positive and supportive talks help me keep focused on right thing and motivated.',
+    anthony: 'Anthony is very helpful and vary talented in Z-Shell. He helped me configure all the important stuff in Z-Shell.',
+    dan: 'Dan is always smiling. Working around him is very nice cause he is smiling and laughing all the time. He brings positive vibes.',
+    jacob: 'Jacob is very helpful but little quite than other TA. I think he is a good listener. ',
+    sarah: 'Sarah is very nice and fun to work with. She always motivates us to figure things in our own, which is very important. And walks through the process with us so that we can understand the problem-solving process. ',
+    spencer: 'Spencer is very nice and kind person. He is very good at explaining things, how it works and why. He’s got very good sense of humor which makes it fun to be around him.'
   },
   {
     name: '',

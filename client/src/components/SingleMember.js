@@ -5,18 +5,35 @@ import {
   Divider, 
   Header,
   Grid,
+  Segment,
 } from 'semantic-ui-react'
 import students from '../StudentResponses'
 
 class SingleMember extends React.Component {
-  studentReplies = students.map( student => ({
-    response: student[this.props.match.params.member.toLowerCase()],
-    image: student.image,
-    name: student.name,
-  }))
+  // studentReplies = students.map( student => ({
+  //   response: student[this.props.match.params.member.toLowerCase()],
+  //   image: student.image,
+  //   name: student.name,
+  // })).filter( student => !!student.response)
+
+  studentReplies = students.reduce( (acc, student) => {
+    if (!!student[this.props.match.params.member.toLowerCase()]) {
+      return [
+        ...acc,
+        {
+          response: student[this.props.match.params.member.toLowerCase()],
+          image: student.image,
+          name: student.name,
+        },
+      ]
+    }
+
+    return acc;
+  }, [])
 
   render() {
     const { member } = this.props.match.params
+    console.log(this.studentReplies)
 
     return (
       <div>
@@ -32,7 +49,7 @@ class SingleMember extends React.Component {
                 <Grid.Column width={10} verticalAlign='middle' padded='vertically'>
                   <Header as='h2' textAlign='center'>{student.name}</Header>
                   <Divider/>
-                  <p>{student.response}</p>
+                  <Segment raised>{student.response}</Segment>
                 </Grid.Column>
               </Grid.Row>,
               <Divider  key={`${student.name}-divider`}/>]
