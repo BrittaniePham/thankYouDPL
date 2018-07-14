@@ -4,7 +4,10 @@ import Michael from './images/michael.jpg'
 import bianca from './images/bianca.png'
 import alex from './images/alex.png'
 import sabina from './images/sabina.png'
-
+import alan from './images/alan.png'
+import robin from './images/robin.png'
+import jared from './images/jared.png'
+import clayton from './images/clayton.png'
 
 export default [
   {
@@ -82,56 +85,50 @@ export default [
     spencer: 'Spencer is very nice and kind person. He is very good at explaining things, how it works and why. He’s got very good sense of humor which makes it fun to be around him.'
   },
   {
-    name: '',
-    image: '',
-    dave: '',
-    marc: '',
-    nhi: '',
-    will: '',
-    anthony: '',
-    dan: '',
-    jacob: '',
-    sarah: '',
-    spencer: ''
+    name: 'Jared Menard',
+    image: jared,
+    dave: 'He’s a rock star. Like so remarkably many of these folks, he reflects a real caring about his mission and us as students. Dave gets all five stars, easy. I do not know what his salary is, but I can tell you that he’s underpaid.',
+    marc: 'Who could be better on the front line of the organization? Nobody. Marc is a naturally cool guy who’s good at putting people at ease and making impossible things seem doable. ',
+    nhi: 'Genuine, motivated, multi-talented, a convincing success story on his own merits alone. May he live forever!',
+    will: 'Will is inspirational. He’s the leader we need, and definitely not the one we deserve. I can see him being successful in anything he puts his hands on, and I’m proud to know him.',
+    anthony: 'Anthony swooped in at several points to solve some weird problems with precision and his trademark attitude. He’s earned some hero points, and I look forward to seeing what he will do next.',
+    dan: 'Dan’s focused, yet easy-going personality helped us through a lot of tough patches. Plus, he’s technically an actual rock star!',
+    jacob: 'Quieter than a lot of his peers, Jake showed off an impressive analytical skill when I had the opportunity to ask him for help. ',
+    sarah: 'Sarah’s optimism was relentless and contagious. I would say she’s a natural leader, considering the challenges and the people together.',
+    spencer: 'I remember walking, side by side, with Spencer in the sand. Miles and miles we went, the crashing surf on one hand and the fires of apocalypse on the other, and just when it seemed all strength had gone, we reached the end. As I looked back then, and I saw that there was only one set of footprints. Spencer had carried me.'
   },
   {
-    name: '',
-    image: '',
-    dave: '',
-    marc: '',
-    nhi: '',
-    will: '',
-    anthony: '',
-    dan: '',
-    jacob: '',
-    sarah: '',
-    spencer: ''
+    name: 'Clayton Crockett',
+    image: clayton,
+    dave: 'Coming from the U’s CS program, I had no idea what to expect from a bootcamp instructor.  I can now say honestly that Dave has greatly surpassed the bar I had previously set for CS teachers.  He is more knowledgeable and connects with each student on a more personal level than any instructor I have had in the past.  Thanks to him, I have learned more in the past 10 weeks than I did in a year and a half at the U.  Kudos to Dave and all of the staff at DPL.',
+    marc: 'From the first interview, Marc made me feel comfortable being at DevPoint.  He embodies the chill vibe the entire bootcamp gives off. I am grateful to Marc for helping me choose DevPoint as the bootcamp I would attend.',
+    will: 'From motivational speeches to cool catch-phrases, Will is a prime example of a strong leader. Every time he speaks to the group he makes me proud to be a part of the DPL community. I will be taking much of his advice to heart as I continue to pursue a career in CS.',
+    anthony: 'Anthony helped me through this cohort… A LOT. I can’t begin to explain how often I went to Anthony to talk through every idea in my head.  I really appreciated the guidance he offered, because he was never opposed to discussing CS concepts outside the scope of what we were currently learning.  His knowledge of all the material we were covering never ceased to amaze me, and I am genuinely grateful for the mentorship he has provided me over the last 10 weeks.',
+    dan: 'Dan is a great person to be around, he has an infectious laugh and always seems in high spirits.  I always like talking to Dan about random programming (and non-programming) concepts outside the scope of web development.  He is knowledgable and helpful every time I get stuck.  He also has good taste in subreddits.',
+    jacob: 'Jacob has been extremely helpful to me throughout the cohort, even when he wasn’t my TA.  He is a very talented web developer and carries such a calm demeanor that it tends to relax me when I’m stressed and explaining all the problems with my code. I think he likes letting me struggle a little bit, but that has proven helpful in gaining a deeper understanding of the bugs I have created.  I thank him for all the help he has given me.',
   },
   {
-    name: '',
-    image: '',
-    dave: '',
-    marc: '',
-    nhi: '',
-    will: '',
-    anthony: '',
-    dan: '',
-    jacob: '',
-    sarah: '',
-    spencer: ''
+    name: 'Robin Green',
+    image: robin,
+    dave: ' I hope that one day I can reach a point in life that I can give back and help as much as Dave. This is the spring board that I need to help me jump into the next chapter of life.',
+    marc: 'This guy is just pure energy  and heart felt caring. Just his presence can help brighten anyones day.',
+    anthony: 'If you got a db prob this is your guy, and I’ve got this suspicion that he really likes to dance…but I could be wrong.',
+    dan: 'if you have a mediocre joke this is the guy to go to cause he’s  always got a chuckle about to come out.',
+    jacob: 'Out of all the beards in DPL this guy takes the cake! It’s really nice to have someone around that  can talk about the sports.  I hope theres at least one person like him at whatever job I find.',
+    sarah: 'Sarah is super nice and more than willing to help you out of any conundrum that you might get yourself in.',
+    spencer: 'Its always nice to have another soulless ginger around… It really helps me feel at home.'
   },
   {
-    name: '',
-    image: '',
-    dave: '',
-    marc: '',
-    nhi: '',
-    will: '',
-    anthony: '',
-    dan: '',
-    jacob: '',
-    sarah: '',
-    spencer: ''
+    name: 'Alan Bischoff',
+    image: alan,
+    dave: 'Dave you are honestly and huge inspiration to me, this is my genesis into the tech industry, and you are numero uno in my book. I will study and grind so that I can tell people that Dave Jungst was, and is my mentor, and they will be like “man that guy must be amazing!” I will then proceed to assure them that you are. Thank you for sharing your knowledge I look forward to great things in the future.',
+    marc: 'Its been a fun 12 weeks, watching the world cup, and DPL events. Thanks for letting me join the cohort and, always keeping the fridge stocked.',
+    nhi: 'I feel like it was a missed opportunity not getting to know you better Nhi, you seem like an easy going but, intelligent, motivated, person, precisely the kind of people that I like to surround myself with. I enjoyed the times we crossed paths',
+    will: 'Will thanks for your words of motivation, and all the help that you have made available. I hope that I can move forward and be a good representation of DPL',
+    anthony: 'Anthony thanks for your guidance, I feel like I was able to understand things better when you explained them to me. I hope that great things happen for you in the future',
+    dan: 'It was always a good, and entertaining time learning from you Dan, thanks for all the help and direction. ',
+    jacob: 'Thanks for being patient with my incompetence, I feel like I could always ask the dumbest question, and you would treat it like a serious question, and helped me through the problem. Go Jazz!',
+    sarah: 'I feel like I didn’t get to associate to much with you these past two weeks, which was a missed opportunity I think, I feel like there was a lot that I could have learned from you. I also was inspired by your efforts at getting a job, it sounds weird, and Im sure the other TAs are all looking but it was nice to hear about your experiences, and drive to find a job.',
   },
   {
     name: '',
