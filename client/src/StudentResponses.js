@@ -8,6 +8,10 @@ import alan from './images/alan.png'
 import robin from './images/robin.png'
 import jared from './images/jared.png'
 import clayton from './images/clayton.png'
+import amber from './images/amber.jpg'
+import jen from './images/jen.png'
+import kirby from './images/kirby.png'
+
 
 export default [
   {
@@ -132,7 +136,7 @@ export default [
   },
   {
     name: 'Jen Broadhead',
-    image: '',
+    image: jen,
     dave: 'Dave is an excellent instructor who has years of professional development experience that adds a realistic approach to the course structure and content. He cares very much for the learning experience and well being of his students and has an obvious passion for what he does. ',
     marc: 'Marc is awesome. He is very personable, friendly and is the go to guy for any needs of the student. ',
     will: 'Happy and friendly guy, great speaker and motivator.',
@@ -144,24 +148,24 @@ export default [
   },
   {
     name: 'Kristina Kirby',
-    image: '',
+    image: kirby,
     marc: 'I am almost certain you have heard it before but your positive attitude is one of the bright spots at DevPoint. I could count on our interactions to be kind, funny and supportive.',
     anthony: 'You stayed on your own time to help us learn in the evenings.  During those times on more then a few occasions you explained the same concept in various ways till I was able to make associations that helped me make the knowledge stick. ',
     sarah: 'Thank you for taking the extra time to listen to my struggles and respond with tools that addressed my specific needs. ',
     spencer: 'You kept it chill. You  consistently responded to my questions with a welcoming and open vide.  I really appreciate the time you gave to me, to stay at the table through a series of questions through which I found understanding and definition of the actual problem I needed to solve.'
   },
   {
-    name: '',
-    image: '',
-    dave: '',
-    marc: '',
-    nhi: '',
-    will: '',
-    anthony: '',
-    dan: '',
-    jacob: '',
-    sarah: '',
-    spencer: ''
+    name: 'Amber Ostendorf',
+    image: amber,
+    dave: 'You magically make complicated things seem easy! You inspire me to keep going and hopefully get to where you are one day. You are a great teacher and I am so thankful I had the opportunity to learn from you.',
+    marc: 'Thank you for all you do! I know you make a lot of things happen behind the scenes but you always took a moment just to say hello and good morning too.',
+    nhi: 'You took a chance on me and I hope to make you proud out there! Thanks for putting together a great program! I am so happy to be a part of this community!',
+    will: 'Thanks for inspiring us to keep going when things seemed hard! It was something I needed to hear and I appreciate you taking the time to help us. ',
+    anthony: 'Your quick wit cracks me up! You made us laugh but I always walked away learning something new from you.',
+    dan: 'You were always so patient whenever I came by with an issue but most importantly you helped me learn how to problem solve. I will take that skill and probably use that for the rest of my career. Thank you!',
+    jacob: 'I didn’t get to work directly with you but one thing I heard you say, that has stuck with me, is that the only way you will learn to code is by coding. I know it sounds like common sense but when I am not feeling like coding or frustrated and want to stop I just remember what you said and it motivates me to push through.',
+    sarah: 'Thanks for all your help! I know I ended up giving you a couple tough problems to help me with but because of that I got to see your thought process when you are stuck. That will help me greatly when I am trying to solve issues on my own cause I’ll think to myself “what would Sarah try?” and follow your process. ',
+    spencer: 'You have a great way of explaining things in a way that makes them easier to understand. Thanks taking the extra time to really make sure we got the concept behind what we were trying to build. I found it very helpful!'
   },
   {
     name: '',
