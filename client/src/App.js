@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import ThankYou from './components/ThankYou';
+import LaunchDay from './components/LaunchDay';
 import Everyone from './components/Everyone';
 import Member from './components/SingleMember';
 
@@ -23,6 +24,7 @@ class App extends Component {
           <Route exact path="/ThankYou" component={ThankYou} />
           <Route exact path="/dpl" component={Everyone} />
           <Route exact path="/dpl/:member" component={Member} />
+          <Route exact path="/launchDay" component={LaunchDay} />
           <Route component={NoMatch} />
         </Switch>
       </AppContainer>

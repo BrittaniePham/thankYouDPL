@@ -15,11 +15,14 @@ class NavBar extends Component {
             <Menu.Item name='home' />
           </Link>
           <Link to='/dpl'>
-            <Menu.Item name='Everyone' />
+            <Menu.Item name='DPL Staff' />
           </Link>
           <Link to='/ThankYou'>
             <Menu.Item name='ThankYou' />
           </Link>
+          {/* <Link to='/LaunchDay'>
+            <Menu.Item name='LaunchDay' />
+          </Link> */}
         </Menu>
       </div>
     )

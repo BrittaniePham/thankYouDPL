@@ -8,7 +8,7 @@ import alan from './images/alan.png'
 import robin from './images/robin.png'
 import jared from './images/jared.png'
 import clayton from './images/clayton.png'
-import amber from './images/amber.jpg'
+import amber from './images/amber.png'
 import jen from './images/jen.png'
 import kirby from './images/kirby.png'
 
