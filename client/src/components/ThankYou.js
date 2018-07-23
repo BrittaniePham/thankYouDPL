@@ -6,7 +6,7 @@ const ThankYou = () => {
   return (
     <VideoContainer textAlign='center'>
       <iframe
-        width="1020" height="574" src="https://www.youtube.com/embed/KTgICYeMPbg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        width="1020" height="574" src="https://www.youtube.com/embed/KTgICYeMPbg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title='thanks'>
       </iframe>
     </VideoContainer>
   );

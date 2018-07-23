@@ -31,6 +31,10 @@ class SingleMember extends React.Component {
     return acc;
   }, [])
 
+  componentDidMount() {
+    window.scrollTo(0,0)
+  }
+
   render() {
     const { member } = this.props.match.params
     console.log(this.studentReplies)
