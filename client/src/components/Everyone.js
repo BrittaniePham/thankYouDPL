@@ -10,6 +10,11 @@ import {
 import devMembers from '../Members'
 
 class Everyone extends Component {
+  
+  componentDidMount() {
+    window.scrollTo(0,0)
+  }
+
   render() {
     return (
       <Container>

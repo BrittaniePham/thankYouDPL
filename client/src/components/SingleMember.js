@@ -37,7 +37,6 @@ class SingleMember extends React.Component {
 
   render() {
     const { member } = this.props.match.params
-    console.log(this.studentReplies)
 
     return (
       <div>
