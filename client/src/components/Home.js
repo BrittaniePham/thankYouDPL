@@ -2,7 +2,7 @@ import React from 'react';
 import { Header, Image, Button, Container, Divider } from 'semantic-ui-react'
 import logo from '../images/logo.jpg'
 import { Link } from 'react-router-dom'
-import group from '../images/group.jpg'
+import group from '../images/group.png'
 
 const Home = () => {
   return (
