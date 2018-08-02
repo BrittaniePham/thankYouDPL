@@ -1,17 +1,25 @@
-import React, { Component } from 'react';
-import { Header } from 'semantic-ui-react'
+import React from 'react';
+import { Header, Container } from 'semantic-ui-react'
+import styled from 'styled-components'
 
-class LaunchDay extends Component {
-  render() {
-    return (
-      <div>
-        <Header as='h1'>
-          This page is empty because the video about launch day hasn't happened yet and I cant put up a video that doesn't exist.
-          When it is uploaded, it will be here. 
-        </Header> 
-      </div>
-    );
-  }
+const LaunchDay = () => {
+  return (
+    <div>
+      <VideoContainer textAlign='center'>
+      <iframe
+        width="1020" height="574" src="https://www.youtube.com/embed/KTgICYeMPbg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title='thanks'>
+      </iframe>
+    </VideoContainer>
+    </div>
+  );
 }
+
+const VideoContainer = styled(Container)`
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+`
 
 export default LaunchDay;
