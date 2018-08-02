@@ -20,9 +20,9 @@ class NavBar extends Component {
           <Link to='/ThankYou'>
             <Menu.Item name='ThankYou' />
           </Link>
-          {/* <Link to='/LaunchDay'>
+          <Link to='/LaunchDay'>
             <Menu.Item name='LaunchDay' />
-          </Link> */}
+          </Link>
         </Menu>
       </div>
     )
