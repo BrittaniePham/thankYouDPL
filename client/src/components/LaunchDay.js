@@ -4,22 +4,33 @@ import styled from 'styled-components'
 
 const LaunchDay = () => {
   return (
-    <div>
-      <VideoContainer textAlign='center'>
-      <iframe
-        width="1020" height="574" src="https://www.youtube.com/embed/JgcR5KGhknM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title='thanks'>
-      </iframe>
-    </VideoContainer>
-    </div>
+    <Padding>
+      <RespContainer textAlign='center'>
+        <Iframe
+          width="1020" height="574" src="https://www.youtube.com/embed/JgcR5KGhknM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen title='thanks'>
+        </Iframe>
+      </RespContainer>
+    </Padding>
   );
 }
 
-const VideoContainer = styled(Container)`
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px;
+const Padding = styled(Container) `
+  padding: 40px;
+`
+
+const Iframe = styled.iframe `
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+`
+
+const RespContainer = styled.div `
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
 `
 
 export default LaunchDay;
