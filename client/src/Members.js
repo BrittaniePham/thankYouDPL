@@ -5,7 +5,7 @@ import Will from './images/Will.png'
 import Jacob from './images/Jacob.png'
 import Anthony from './images/Anthony.jpeg'
 import Dan from './images/Dan.jpeg'
-import Sarah from './images/Sarah.jpeg'
+import Sarah from './images/sarah.png'
 import Marc from './images/marc.png'
 
 export default [
